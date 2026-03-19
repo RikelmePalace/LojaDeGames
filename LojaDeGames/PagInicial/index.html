@@ -6,29 +6,31 @@
     <title>FrameStore | Loja de Games</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
 
     <header class="navbar">
-        <div class="logo-container">
-            <div class="dashboard-menu" onclick="toggleMenu()">
+    <div class="logo-container">
+        <div class="dashboard-menu" onclick="toggleMenu()">
             <span></span>
             <span></span>
             <span></span>
         </div>
         
+        <a href="index.html" class="logo-link">
             <img src="img/Logotipo Unico.png" alt="Logo Unico" class="logo-unico">
             <img src="img/Logotipo  Nome.png" alt="Logo" class="logo-nome">
+        </a>
+    </div>
+    
+    <div class="search-bar">
+        <input type="text" placeholder="Procurar jogos...">
+        <button>🔍</button>
+    </div>
 
-        </div>
-        
-        <div class="search-bar">
-            <input type="text" placeholder="Procurar jogos...">
-            <button>🔍</button>
-        </div>
-
-        <button class="btn-entrar">Entrar</button>
-    </header>
+    <button class="btn-entrar">Entrar</button>
+</header>
 
 <aside class="sidebar-menu" id="sidebar">
     <div class="sidebar-header">
